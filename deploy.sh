@@ -14,7 +14,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:limarcus/vuepress-blog.git master:gh-pages
+git push -f git@github.com:LiMarcus/vuepress-blog.git master:gh-pages
 
 cd -
 
