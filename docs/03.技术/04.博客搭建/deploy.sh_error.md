@@ -1,0 +1,13 @@
+---
+title: sh_error
+date: 2021-02-22 23:19:15
+permalink: /pages/72c9c1/
+categories:
+  - 技术
+  - 博客搭建
+tags:
+  - 
+---
+# Deploy Vuepress on Github Page Problems
+## Double click "deploy.sh" not working
+Because I used the **Github Desktop** before, so I forgot to [generate an SSH key to connect github](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). That will occur error when the script in "deploy.sh" try to push the version to Github. I set "set -e" in "deploy.sh", but no error notification pop up, which spent me lot of time to figure out.

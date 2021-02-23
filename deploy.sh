@@ -13,7 +13,6 @@ cd docs/.vuepress/dist
 
 
 # deploy to github
-echo 'b.xugaoyi.com' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:LiMarcus/vuepress-blog.git
@@ -45,5 +44,5 @@ git push -f $githubUrl master:gh-pages # 推送到github
 # rm -rf docs/.vuepress/dist
 
 
-cd -
+cd - # 退回开始所在目录
 rm -rf docs/.vuepress/dist
