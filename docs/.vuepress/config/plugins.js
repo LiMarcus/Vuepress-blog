@@ -31,10 +31,6 @@ module.exports = [
           title: '在Bing中搜索',
           frontUrl: 'https://cn.bing.com/search?q=',
         },
-        {
-          title: '通过百度搜索本站的',
-          frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
-        },
       ],
     },
   ],
@@ -83,11 +79,11 @@ module.exports = [
     {
       choosen: 'gitalk',
       options: {
-        clientID: 'a6e1355287947096b88b',
-        clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
+        clientID: 'e35202074072f2c5a467',
+        clientSecret: '0d7529c1a4fc558da9a63bbe9086d185a318f9f7',
         repo: 'blog-gitalk-comment', // GitHub 仓库
-        owner: 'xugaoyi', // GitHub仓库所有者
-        admin: ['xugaoyi'], // 对仓库有写权限的人
+        owner: 'LiMarcus', // GitHub仓库所有者
+        admin: ['LiMarcus'], // 对仓库有写权限的人
         // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
