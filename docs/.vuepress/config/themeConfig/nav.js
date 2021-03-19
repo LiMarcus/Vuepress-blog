@@ -35,10 +35,8 @@ module.exports = [
     text: 'Tech',
     link: '/tech/',
     items: [
-      { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-      { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-      { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
       { text: 'Vuepress', link: '/pages/72c9c1/' },
+      { text: 'Firebase', link: '/pages/840d22/' },
     ],
   },
   {
